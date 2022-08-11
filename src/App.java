@@ -11,15 +11,15 @@ class App {
       
       System.out.println(g1);
   
-      g1.degree(0);
-      g1.degree(2);
-      g1.degree(1);
-      g1.degree(1);
-  
       System.out.println(g1.degree(0));
+      System.out.println(g1.degree(1));
       System.out.println(g1.degree(2));
-      System.out.println(g1.degree(1));
-      System.out.println(g1.degree(1));
+      System.out.println(g1.degree(3));
+
+      System.out.println(g1.highestDegree());
+      System.out.println(g1.lowestDegree());
+
+      
     }
     
   }
